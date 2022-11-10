@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,600&family=Sarala&display=swap');
+
+:root {
+    background: linear-gradient(120deg, rgb(1, 1, 53), rgb(134, 19, 134));
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+    width: 570px;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: 6px 8px 10px rgba(0, 0, 0, 0.788);
+}
+
+
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.658) ;
+    border-radius: 7px;
+    
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
